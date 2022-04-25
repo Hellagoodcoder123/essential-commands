@@ -1,0 +1,49 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "admin_shovel",
+    "customModelName": "Normal",
+    "name": "Admin Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 20,
+    "efficiency": 50.0,
+    "attackSpeed": 15.0,
+    "enchantability": 50,
+    "damageVsEntity": 111111.0,
+    "usageCount": 100138,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.COMMAND_BLOCK"
+      },
+      {
+        "value": "Blocks.REPEATING_COMMAND_BLOCK"
+      },
+      {
+        "value": "Blocks.CHAIN_COMMAND_BLOCK"
+      },
+      {
+        "value": "Items.COMMAND_BLOCK_MINECART"
+      },
+      {
+        "value": "Blocks.BARRIER"
+      },
+      {
+        "value": "Items.DEBUG_STICK"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "AdminPickaxeLivingEntityIsHitWithTool"
+    }
+  }
+}

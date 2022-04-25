@@ -1,0 +1,77 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Potion Templates",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Potion Templates",
+          "x": 172,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Instant Kill Potion",
+          "onClick": {
+            "name": "GiveInstantKillPotion"
+          },
+          "width": 124,
+          "height": 20,
+          "name": "Instant Kill Potion",
+          "x": 151,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Levitation 1 Splash Potion",
+          "onClick": {
+            "name": "GiveLevitationSplashPotion1"
+          },
+          "width": 160,
+          "height": 20,
+          "name": "Levitation 1 Splash Potion",
+          "x": 132,
+          "y": 72
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Levitation 1 Potion",
+          "onClick": {
+            "name": "GiveLevitationPotion1"
+          },
+          "width": 124,
+          "height": 20,
+          "name": "Levitation 1 Potion",
+          "x": 151,
+          "y": 91
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "effect",
+          "x": 178,
+          "y": 177
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Effect(s):",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Effect(s):",
+          "x": 126,
+          "y": 181
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Duration:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Duration:",
+          "x": 131,
+          "y": 162
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "duration",
+          "x": 178,
+          "y": 157
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "amplifier",
+          "x": 178,
+          "y": 137
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Amplifier:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Amplifier:",
+          "x": 126,
+          "y": 142
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Create Potion",
+          "width": 93,
+          "height": 20,
+          "name": "Create Potion",
+          "x": 168,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Potion Creator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Potion Creator",
+          "x": 180,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Templates",
+          "width": 72,
+          "height": 20,
+          "name": "Templates",
+          "x": 179,
+          "y": 58
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "type",
+          "x": 178,
+          "y": 117
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Type:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Type:",
+          "x": 151,
+          "y": 122
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "Color",
+          "x": 178,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Color:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Color:",
+          "x": 146,
+          "y": 102
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
