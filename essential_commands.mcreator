@@ -638,6 +638,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "admin_set"
+    },
+    {
+      "name": "PotionCommandExecuted",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Potion",
+      "type": "command",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion"
     }
   ],
   "variable_elements": [],
@@ -693,6 +733,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.essentialcommands",
     "lockBaseModFiles": false
   },

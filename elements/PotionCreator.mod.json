@@ -110,6 +110,9 @@
         "type": "button",
         "data": {
           "text": "Templates",
+          "onClick": {
+            "name": "OpenPotionTemplatesGUI"
+          },
           "width": 72,
           "height": 20,
           "name": "Templates",

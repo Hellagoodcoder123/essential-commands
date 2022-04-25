@@ -7,6 +7,6 @@ public class AdminPickaxeLivingEntityIsHitWithToolProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		entity.hurt(DamageSource.GENERIC, 2147347147);
+		entity.hurt(DamageSource.GENERIC, 214784714);
 	}
 }

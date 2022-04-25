@@ -13,6 +13,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.essentialcommands.world.inventory.PotionCreatorMenu;
+import net.mcreator.essentialcommands.network.PotionCreatorButtonMessage;
+import net.mcreator.essentialcommands.EssentialCommandsMod;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -126,6 +128,10 @@ public class PotionCreatorScreen extends AbstractContainerScreen<PotionCreatorMe
 		this.addRenderableWidget(new Button(this.leftPos + 42, this.topPos + 40, 93, 20, new TextComponent("Create Potion"), e -> {
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 53, this.topPos + 21, 72, 20, new TextComponent("Templates"), e -> {
+			if (true) {
+				EssentialCommandsMod.PACKET_HANDLER.sendToServer(new PotionCreatorButtonMessage(1, x, y, z));
+				PotionCreatorButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 		type = new EditBox(this.font, this.leftPos + 52, this.topPos + 80, 120, 20, new TextComponent(""));
 		PotionCreatorMenu.guistate.put("text:type", type);

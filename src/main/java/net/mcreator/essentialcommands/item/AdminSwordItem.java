@@ -41,7 +41,7 @@ public class AdminSwordItem extends SwordItem {
 						new ItemStack(Blocks.CHAIN_COMMAND_BLOCK), new ItemStack(Items.COMMAND_BLOCK_MINECART), new ItemStack(Blocks.BARRIER),
 						new ItemStack(Items.DEBUG_STICK));
 			}
-		}, 3, 11f, new Item.Properties().tab(null).fireResistant());
+		}, 3, 96f, new Item.Properties().tab(null).fireResistant());
 		setRegistryName("admin_sword");
 	}
 
