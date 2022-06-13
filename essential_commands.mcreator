@@ -311,10 +311,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -678,6 +674,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "potion"
+    },
+    {
+      "name": "FlyCommandExecuted",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fly",
+      "type": "command",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly"
     }
   ],
   "variable_elements": [],
