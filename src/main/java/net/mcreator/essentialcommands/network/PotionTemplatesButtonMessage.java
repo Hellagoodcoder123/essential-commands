@@ -66,7 +66,7 @@ public class PotionTemplatesButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			GiveInstantKillPotionProcedure.execute(world, x, y, z, entity);
+			GiveInstantKillPotionProcedure.execute(world, x, y, z);
 		}
 		if (buttonID == 1) {
 
